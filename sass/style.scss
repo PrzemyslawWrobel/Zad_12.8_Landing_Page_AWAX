@@ -177,11 +177,6 @@ h5 {
 .menu {
 	background-color: #000;
 	color: #fff;
-	//position: fixed;
-	//top: 0;
-	//left: 0;
-	//right: 0;
-	//height: 100px;
 	.nav {
 		width: 960px;
 		margin: 0 auto;
@@ -224,6 +219,7 @@ h5 {
 		}
 	}
 }
+
 
 .main {
 	width: 100%;
@@ -268,6 +264,7 @@ h5 {
 		}
 	}
 }
+
 
 .about {
 	min-height: 500px;
@@ -365,12 +362,14 @@ h5 {
 			&:hover {
 				border-bottom: 5px solid #888;
 				box-sizing: border-box;
+				
 			}
 		}
 		.active a {
 			background: #ccc;
 			border: none;
 			border-bottom: 5px solid $color-main;
+
 		}
 	}
 	.btn {

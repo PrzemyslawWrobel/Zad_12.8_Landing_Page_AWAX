@@ -43,33 +43,6 @@
 .face-3 {
   background-image: url("../images/img-team-3.png"); }
 
-.face-4 {
-  background-image: url("../images/img-team-4.jpg"); }
-
-.face-5 {
-  background-image: url("../images/img-team-5.jpg"); }
-
-.face-6 {
-  background-image: url("../images/img-team-6.jpg"); }
-
-.face-7 {
-  background-image: url("../images/img-team-7.jpg"); }
-
-.face-8 {
-  background-image: url("../images/img-team-8.jpg"); }
-
-.face-9 {
-  background-image: url("../images/img-team-9.jpg"); }
-
-.client-1 {
-  background-image: url("../images/client-1.png"); }
-
-.client-2 {
-  background-image: url("../images/client-2.jpg"); }
-
-.client-3 {
-  background-image: url("../images/client-3.jpg"); }
-
 * {
   margin: 0;
   padding: 0;
@@ -97,7 +70,7 @@ h5 {
   border-style: none;
   border-radius: 25px; }
   .btn:hover {
-    background: black; }
+    background: -webkit-linear-gradient(left, #fff, #b88b58); }
     .btn:hover * {
       font-size: 18px;
       transition: 0.3s; }
@@ -359,8 +332,6 @@ h5 {
   max-height: 175px;
   margin: 40px auto;
   background-size: cover; }
-.team .faceR {
-  border-radius: 50%; }
 
 .clients {
   background: #f5f6f7;
@@ -374,8 +345,6 @@ h5 {
     max-height: 135px;
     margin: 90px auto 20px;
     background-size: cover; }
-  .clients .faceR {
-    border-radius: 50%; }
   .clients .carousel img {
     height: 700px; }
   .clients h3 {
