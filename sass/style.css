@@ -163,11 +163,11 @@ h5 {
   width: 100%;
   height: 740px;
   padding: 0; }
-  .main #carousel-example-generic2 {
+  .main #carousel-example-generic2 #carousel-example-generic3 {
     height: 740px; }
-    .main #carousel-example-generic2 .carousel-inner {
+    .main #carousel-example-generic2 #carousel-example-generic3 .carousel-inner {
       height: 740px; }
-    .main #carousel-example-generic2 .carousel-indicators {
+    .main #carousel-example-generic2 #carousel-example-generic3 .carousel-indicators {
       bottom: 50px; }
   .main * {
     color: #fff; }
@@ -896,11 +896,11 @@ h5 {
 @media (max-width: 1360px) {
   .main {
     height: 55vw; }
-    .main #carousel-example-generic2 {
+    .main #carousel-example-generic2 #carousel-example-generic3 {
       height: 55vw; }
-      .main #carousel-example-generic2 .carousel-inner {
+      .main #carousel-example-generic2 #carousel-example-generic3 .carousel-inner {
         height: 55vw; }
-      .main #carousel-example-generic2 .carousel-indicators {
+      .main #carousel-example-generic2 #carousel-example-generic3 .carousel-indicators {
         bottom: 4vw; }
     .main .hero {
       top: -42vw; }
